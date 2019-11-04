@@ -81,6 +81,10 @@ a:hover {
   margin-bottom: 1em;
   margin-top: 0; }
 
+.subhead {
+  text-transform: uppercase;
+  letter-spacing: 0.07em; }
+
 button {
   font-size: inherit; }
 
