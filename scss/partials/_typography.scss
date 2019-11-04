@@ -1,0 +1,78 @@
+/* HEADING */
+
+body {
+    font-family: $body-fontfamily;
+    font-size: 100%;
+    line-height: 1.4;
+}
+
+h1, h2, h3 {
+    font-family: $heading-fontfamily;
+    margin: .5em 0;
+}
+
+h1 {
+    
+    font-size: 3em;
+    line-height: 1;
+}
+
+h2 {
+    font-size: 2em;
+    line-height: 1.1;
+}
+
+h3 {
+    font-size: 1.5em;
+    line-height: 1.2;
+}
+
+p {
+    max-width: 35em;
+}
+
+// LINKS
+a {color:$color-links;}
+a:hover {color:$color-links-dark;}
+
+// HORIZONTAL RULE
+hr {
+    border: 0;
+    height: 1px;
+    background: rgba(0,0,0,.15);
+    margin: 4em 0;
+}
+
+// HELPER
+.sectionhead {
+    text-align: center;
+    font-family: $body-fontfamily;
+    font-size: 1em;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: .4em;
+    margin-bottom: 2em;
+}
+
+.meta {
+    display: block;
+    font-size: .8em;
+    color: $color-midgrey;
+    margin: 0 0 2em 0;
+
+}
+
+/* TYPE SPECIMEN */
+.mainhead {
+    font-size: 4em;
+    font-family: $heading-fontfamily;
+    color: $color-accent
+}
+
+.subhead {
+    font-family: $body-fontfamily;
+    color: $color-accent;
+    margin-bottom: 3em;
+}
+
+

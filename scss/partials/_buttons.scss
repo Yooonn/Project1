@@ -1,0 +1,51 @@
+// BUTTONS
+
+button {
+    font-size: inherit;
+}
+
+button,
+.button {
+    background-color: $color-links;
+    color: #fff;
+    padding: 1em 1.6em;
+    display: inline-block;
+    margin: .5em;
+    border-radius: .5em;
+    margin-bottom: 2em;
+    border: 1px solid $color-links;
+    cursor: pointer;
+    text-decoration: none;
+
+
+    &:hover {
+        background-color: $color-links-dark;
+        color: #fff;
+        border-color: $color-links-dark;
+    }
+
+    &.alt {
+        color: $color-links;
+        background-color: rgb(255, 255, 255); 
+        border: 1px solid $color-links;
+
+        &:hover {
+            background-color: $color-links-dark;
+            color: #fff; 
+            border-color: $color-links-dark;
+        }
+    }
+
+    &.dark {
+        color: #fff;
+        background-color: transparent;
+        border-color: #fff;
+    }
+
+    &:hover {
+        background: #fff;
+        color: #000;
+    }
+
+}
+

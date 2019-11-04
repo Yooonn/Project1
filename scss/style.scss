@@ -1,0 +1,29 @@
+// VARIABLES
+$body-fontfamily: 'Fira Sans', sans-serif;
+$heading-fontfamily: 'Dosis', sans-serif;
+
+// COLORS
+$color-text-body: rgba(0, 0, 0, 0.466);
+$color-midgrey: rgba(0,0,0,.5);
+$color-links: rgb(0, 223, 204);
+$color-links-dark: rgb(17, 245, 119);
+
+$color-accent: rgb(77, 240, 150);
+$color-hero-bg: rgba(0, 0, 0, 1);
+
+
+// BREAKPOINTS
+$breakpoint-small: 768px;
+$breakpoint-medium: 1050px;
+$breakpoint-large: 1250px;
+
+
+// IMPORT PARTIALS
+@import 'partials/toc';
+@import 'partials/typography'; 
+@import 'partials/buttons'; 
+@import 'partials/media';  
+@import 'partials/layout';  
+@import 'partials/grid';  
+@import 'partials/structure';  
+

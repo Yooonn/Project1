@@ -1,0 +1,62 @@
+// Grid
+
+// This is a simple sementic grid
+// 1/2 col, 1/3 col, etc.
+
+$gutter-width: 2%;
+
+.row .column {
+    margin-bottom: $gutter-width;
+    padding: 1em;
+}
+
+// CSS Grid
+@media (min-width: $breakpoint-small) {
+    .row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -$gutter-width/2; // removes tiny left margin
+        margin-right: -$gutter-width/2; // removes tiny right margin
+
+        &.swap { flex-direction: row-reverse; }
+        
+        // &.center {
+        //     display: block;
+        //     .column {
+        //     margin-left: auto;
+        //     margin-right: auto;
+        //     }
+        // }
+
+        &.center {
+            flex-direction: column;
+            align-items: center;
+        }
+
+
+        .column {
+            color: rgb(68, 221, 168);
+            flex-grow: 1; // expands to full width
+            margin: $gutter-width/2;
+
+            &.one-half { width: 50%-$gutter-width; }
+            &.one-third { width: 33.3333%-$gutter-width; }
+            &.two-thirds { width: 66.6666%-$gutter-width; }
+            &.one-fourth { width: 25%-$gutter-width; }
+        }
+    }
+            
+}
+    
+
+// for demo only
+.row.demo {
+    // background: yellow;
+    .column {
+        background: rgb(241, 241, 241);
+        padding: 1em;
+        text-align: center;
+    }
+}
+
