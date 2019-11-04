@@ -49,3 +49,22 @@ button,
 
 }
 
+// TEXT BUTTON
+
+.text-link {
+    font-size: 0.875em;
+    opacity: 0.7;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding-top: 1em;
+    display: flex;
+    justify-content: space-around;
+    
+
+    &:hover {
+        opacity: 1;
+        color: white;
+    }
+
+}

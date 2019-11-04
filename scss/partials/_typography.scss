@@ -4,21 +4,23 @@ body {
     font-family: $body-fontfamily;
     font-size: 100%;
     line-height: 1.4;
+    color: #ffffff;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: $heading-fontfamily;
     margin: .5em 0;
+    font-weight: 400;
 }
 
 h1 {
     
-    font-size: 3em;
+    font-size: 4.375em;
     line-height: 1;
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 3em;
     line-height: 1.1;
 }
 
@@ -27,52 +29,34 @@ h3 {
     line-height: 1.2;
 }
 
+h4 {
+    font-size: 1.125em;
+    line-height: 1.2;
+}
+
+h5 {
+    font-family: $body-fontfamily;
+    font-size: 1.5em;
+    line-height: 1.2;
+
+}
+
 p {
     max-width: 35em;
+    opacity: 0.7;
 }
 
 // LINKS
 a {color:$color-links;}
 a:hover {color:$color-links-dark;}
 
-// HORIZONTAL RULE
-hr {
-    border: 0;
-    height: 1px;
-    background: rgba(0,0,0,.15);
-    margin: 4em 0;
-}
-
-// HELPER
-.sectionhead {
-    text-align: center;
-    font-family: $body-fontfamily;
-    font-size: 1em;
-    line-height: 1;
-    text-transform: uppercase;
-    letter-spacing: .4em;
-    margin-bottom: 2em;
-}
-
-.meta {
-    display: block;
-    font-size: .8em;
-    color: $color-midgrey;
-    margin: 0 0 2em 0;
-
-}
 
 /* TYPE SPECIMEN */
-.mainhead {
-    font-size: 4em;
-    font-family: $heading-fontfamily;
-    color: $color-accent
+.sectionhead {
+    text-align: center;
+    line-height: 1;
+    text-transform: lowercase;
+    letter-spacing: .04em;
+    margin-bottom: 1em;
+    margin-top: 0;
 }
-
-.subhead {
-    font-family: $body-fontfamily;
-    color: $color-accent;
-    margin-bottom: 3em;
-}
-
-

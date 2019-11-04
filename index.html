@@ -3,17 +3,14 @@
 
 <head>
   <meta charset="utf-8" />
-  <title>My Base</title>
+  <title>Memory</title>
   <meta name="description" content="SCSS" />
 
   <!-- VIEWPORT FOR MOBILE -->
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <!-- GOOGLE FONTS -->
-  <link href="https://fonts.googleapis.com/css?family=Fira+Sans|Libre+Baskerville&display=swap" rel="stylesheet">
-
-  <!-- ADOBE FONTS -->
-  <link rel="stylesheet" href="https://use.typekit.net/jsc5mjs.css">
+  <link href="https://fonts.googleapis.com/css?family=Dosis:300,400|Fira+Sans:300&display=swap" rel="stylesheet">
 
   <!-- MAIN CSS FILE -->
   <link href="css/style.css" rel="stylesheet" type="text/css" />
@@ -24,107 +21,44 @@
   <header class="site-header">
     <div class="site-id">
       <!-- using H1 is super important for seo (Google search)-->
-      <h1><a href="">SassyBase 2019</a></h1>
+      <h1><a href="">Memory</a></h1>
     </div>
     <nav class="site-nav">
       <div class="menu-button">Menu</div>
       <ul>
-        <li><a href="#top">Home</a></li>
-        <li><a href="#typography">Typography</a></li>
-        <li><a href="#layout">Layout</a></li>
+        <li><a href="#home">Search</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#community">Community</a></li>
       </ul>
     </nav>
   </header>
 
   <section class="hero">
     <div class="container">
-      <h2>Yoon's Sassy Base</h2>
+
+      <span id="description" contenteditable="true" placeholder="Type a name here" title="Description"></span>
+
+      <!-- <h2>Yoon's Sassy Base</h2>
       <p>This is a simple, single page website, built with SASS</p>
-      <a href="#typography" class="button dark">Go to Typography</a>
+      <a href="#typography" class="button dark">Go to Typography</a> -->
     </div>
   </section>
 
-  <section id="typography">
-
-    <div class="container">
-
-      <!-- <h3 class="sectionhead">Typography</h3>
-
-      <p class="meta">Typographic Scale</p>
-      
-      <h1>Heading1</h1>
-      <h2>Heading2</h2>
-      <h3>Heading3</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. This is something <strong>bold</strong> and this is something <em>italic</em>. This is a <a
-          href=#>Link</a>. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-        laborum.</p>
-
-      <hr />
-
-      <p class="meta">Type Specimen</p> -->
-
-      <h1 class="mainhead">Headline Title</h1>
-      <h2 class="Subhead">This is a subheader</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. This is something <strong>bold</strong> and this is something <em>italic</em>. This is a <a
-          href=#>Link</a>/. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-        laborum.</p>
-
-      <button>This is a Button</button>
-      <a class="button">This is a Button Link</a>
-      <a class="button alt">This is a Button Link Alt</a>
-
-      <hr />
-
-    </div>
-
-  </section>
-
-
-
-  <section id="layout" class="split-crossed-left">
-
-    <div class="container">
-      <div class="image-block">
-        <img src="https://via.placeholder.com/1500" alt="Placeholder image">
-      </div>
-      <div class="text-block">
-        <h4>Center text and image</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores sunt error mollitia, magnam cupiditate
-          consequuntur, a blanditiis necessitatibus vero porro aut nemo doloribus saepe nisi!</p>
-      </div>
+  <section id="about">
+    <div class="container-dark">
+      <h2 class="sectionhead">why we’re here</h2>
+      <p>Welcome to ******, a nonprofit website for people who have lost cherished people and want to create an everlasting tribute in memory of the departed by creating a free online memorial.</p>
+      <a class="text-link" href="#">Read more</a> 
     </div>
   </section>
 
-  <section class="split-crossed-reversed">
-
-    <div class="container">
-      <div class="image-block">
-        <img src="https://via.placeholder.com/1500" alt="Placeholder image">
-      </div>
-      <div class="text-block">
-        <h4>Center text and image</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores sunt error mollitia, magnam cupiditate
-          consequuntur, a blanditiis necessitatibus vero porro aut nemo doloribus saepe nisi!</p>
-      </div>
-    </div>
-
-  </section>
 
 
   <footer class="site-footer">
-    <nav class="site-nav">
-      <ul>
-        <li><a href="#top">Home</a></li>
-        <li><a href="#typography">Typography</a></li>
-        <li><a href="#layout">Layout</a></li>
-      </ul>
-    </nav>
+    <h4 class="footer-text">We’d love to hear from you. <a href="#">Say Hello.</a></h4>
+    <p class="copyright">© 2019 ******. All rights reserved.</p>
+
   </footer>
 
   <!-- SMOOTH SCROLL -->
